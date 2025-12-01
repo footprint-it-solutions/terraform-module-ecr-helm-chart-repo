@@ -1,6 +1,6 @@
 
 # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/ecrpublic_repository
-resource "aws_ecrpublic_repository" "repos" {
+resource "aws_ecrpublic_repository" "this" {
   repository_name = var.repo_name
 
   catalog_data {
